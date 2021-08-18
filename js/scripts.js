@@ -12,6 +12,17 @@ $(document).ready(function(){
 
     $(".goTop").click(function(){scroll(0,0)});
 
+    $("#mc.service").click(function (){window.location = "https://dev.bukkit.org/members/asmax25/projects"});
+    $("#git.service").click(function (){window.location = "https://github.com/asmax15"});
+    $("#db.service").click(function (){window.location = "https://www.mongodb.com/"});
+    $("#wd.service").click(function (){window.location = "https://github.com/asmax15/AsMaxHomepage"});
+    $("#design.service").click(function (){window.location = "https://github.com/asmax15/AsMaxHomepage/blob/main/css/style.css"});
+    $("#android.service").click(function (){window.location = "https://play.google.com/store"});
+
+    $("#discord.item").click(function (){window.location = "https://discord.gg/YeSM2c6qwb"});
+    $("#mail.item").click(function (){window.location = "mailto:contact@asmax.me"});
+    $("#bukkit.item").click(function (){window.location = "https://dev.bukkit.org/members/asmax25/reputation"});
+
     $('.menu-toggler').click(function(){
         $(this).toggleClass("active");
         $(".navbar-menu").toggleClass("active");
